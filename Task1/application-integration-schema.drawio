@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram id="integration" name="Схема интеграции приложений">
-    <mxGraphModel dx="3295" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="2557" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry x="650" y="200" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sysSMS" value="СМС-шлюз" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="650" y="90" width="160" height="50" as="geometry" />
+          <mxGeometry x="660" y="90" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sysTel" value="Телеком-оператор&#xa;(внешний)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="90" width="180" height="50" as="geometry" />
@@ -68,7 +68,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZc5d8Cvh_Kky06Cuau2-4" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e1">
+        <mxCell id="CZc5d8Cvh_Kky06Cuau2-4" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="e1" vertex="1" connectable="0">
           <mxGeometry x="0.4903" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -111,7 +111,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e8" value="Оформление заявок/загрузка документов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="sysABS" source="actFront">
+        <mxCell id="e8" value="Оформление заявок/загрузка документов" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="actFront" target="sysABS" edge="1">
           <mxGeometry x="-0.3624" y="15" relative="1" as="geometry">
             <mxPoint x="380" y="495" as="sourcePoint" />
             <mxPoint x="580" y="300" as="targetPoint" />
