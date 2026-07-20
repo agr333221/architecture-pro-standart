@@ -1,0 +1,32 @@
+name: Export Draw.io Diagrams to SVG
+
+on:
+  push:
+    branches:
+      - digtransformation
+    paths:
+      - '**/*.drawio' # Runs only when .drawio files change
+
+jobs:
+  drawio-export:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the exported SVGs back to the repo
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Export Draw.io to SVG
+        uses: rlespinasse/drawio-export-action@v2
+        with:
+          path: .               # Search the entire repository
+          format: svg           # Output format
+          output: .             # Keep the SVGs in the same directory as the .drawio files
+          embed-svg-fonts: true # Keeps text formatting crisp
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-generate SVG diagrams [skip ci]"
+          file_pattern: "**/*.svg"
