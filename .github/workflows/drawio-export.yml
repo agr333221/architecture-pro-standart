@@ -2,10 +2,13 @@ name: Export Draw.io Diagrams to SVG
 
 on:
   push:
-    branches:
-      - digtransformation
     paths:
       - '**/*.drawio' # Runs only when .drawio files change
+      - '.github/workflows/drawio-export.yml'
+  pull_request:
+    paths:
+      - '**/*.drawio' # Runs only when .drawio files change
+      - '.github/workflows/drawio-export.yml'
 
 jobs:
   drawio-export:
