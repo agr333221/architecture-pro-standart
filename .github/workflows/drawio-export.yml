@@ -12,13 +12,16 @@ on:
 
 jobs:
   drawio-export:
-    runs-on: ubuntu-latest
+#    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     permissions:
       contents: write # Required to push the exported SVGs back to the repo
 
     steps:
       - name: Checkout Source Code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Export Draw.io to SVG
         uses: rlespinasse/drawio-export-action@v2
