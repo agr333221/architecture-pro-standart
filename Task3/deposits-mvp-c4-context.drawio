@@ -1,0 +1,118 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="deposits-context" name="C4 Контекст — депозиты онлайн (MVP)">
+    <mxGraphModel dx="3163" dy="1943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="C4 - Диаграмма контекста: MVP открытие депозитов онлайн" style="text;html=1;fontSize=18;fontStyle=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="310" y="90" width="1000" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pClient" value="Клиент банка&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="110" y="220" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pNew" value="Новый клиент&lt;br&gt;[Person]&lt;br&gt;не идентифицирован банком" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="170" y="470" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pKC" value="Оператор кол-центра&lt;br&gt;[Person]&lt;br&gt;Обрабатывает заявки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="170" y="705" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pBack" value="Менеджер бэк-офиса депозитов&lt;br&gt;[Person]&lt;br&gt;Обрабатывает заявки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pCred" value="Менеджер отдела кредитования&lt;br&gt;[Person]&lt;br&gt;спецставки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="400" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="sIB" value="Интернет-банк&lt;br&gt;[Software System]&lt;br&gt;Витрина депозитов,&lt;br&gt;персональные ставки,&lt;br&gt;&amp;nbsp;заявки на депозит с СМС-подтверждением" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="450" y="210" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sSite" value="Сайт&#xa;[Software System — дорабатывается]&#xa;Витрина депозитов, форма заявки для новых клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="410" y="465" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sKC" value="Система кол-центра&#xa;[Software System — дорабатывается]&#xa;Приём заявок с сайта, обзвон клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="450" y="700" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sABS" value="АБС&#xa;[Software System — дорабатывается]&#xa;Учёт счетов и депозитов, обработка заявок, модуль ставок (новый)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="930" y="210" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sSMS" value="СМС-шлюз&lt;br&gt;Телеком-оператор&lt;br&gt;[External System]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="910" y="530" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ec1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="pClient" target="sIB" edge="1">
+          <mxGeometry x="-0.1429" y="-85" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="pNew" target="sSite" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="sSite" target="sKC" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="pKC" target="sKC" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;" parent="1" source="pKC" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sKC" target="sABS" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="750" />
+              <mxPoint x="790" y="380" />
+              <mxPoint x="995" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;startArrow=classic;startFill=1;" parent="1" source="sIB" target="sABS" edge="1">
+          <mxGeometry x="0.125" y="-55" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="pBack" target="sABS" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ec11" value="СМС-коды подтверждения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" parent="1" source="sIB" target="sSMS" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="575" y="390" />
+              <mxPoint x="770" y="390" />
+              <mxPoint x="770" y="575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ec12" value="СМС клиенту" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;" parent="1" source="sSMS" target="pClient" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="910" />
+              <mxPoint x="140" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" value="синий — системы банка (дорабатываются в MVP)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;серый — внешние системы&lt;/span&gt;&lt;div&gt;тёмно-синий — пользователи&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="700" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qVMRrVMgod3oX7b8JM9q-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.726;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.649;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sSMS" target="sABS" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="430" as="sourcePoint" />
+            <mxPoint x="1370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qVMRrVMgod3oX7b8JM9q-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.845;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pCred" target="sABS" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="430" as="sourcePoint" />
+            <mxPoint x="1370" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
