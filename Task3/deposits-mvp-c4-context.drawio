@@ -25,13 +25,13 @@
         <mxCell id="sIB" value="Интернет-банк&lt;br&gt;[Software System]&lt;br&gt;Витрина депозитов,&lt;br&gt;персональные ставки,&lt;br&gt;&amp;nbsp;заявки на депозит с СМС-подтверждением" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="450" y="210" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sSite" value="Сайт&#xa;[Software System — дорабатывается]&#xa;Витрина депозитов, форма заявки для новых клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="sSite" value="Сайт&#xa;[Software System - дорабатывается]&#xa;Витрина депозитов, форма заявки для новых клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="410" y="465" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sKC" value="Система кол-центра&#xa;[Software System — дорабатывается]&#xa;Приём заявок с сайта, обзвон клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="sKC" value="Система кол-центра&#xa;[Software System - дорабатывается]&#xa;Приём заявок с сайта, обзвон клиентов" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="450" y="700" width="250" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="sABS" value="АБС&#xa;[Software System — дорабатывается]&#xa;Учёт счетов и депозитов, обработка заявок, модуль ставок (новый)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="sABS" value="АБС&#xa;[Software System - дорабатывается]&#xa;Учёт счетов и депозитов, обработка заявок, модуль ставок (новый)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="930" y="210" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="sSMS" value="СМС-шлюз&lt;br&gt;Телеком-оператор&lt;br&gt;[External System]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;fontColor=#ffffff;" parent="1" vertex="1">
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="legend" value="синий — системы банка (дорабатываются в MVP)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;серый — внешние системы&lt;/span&gt;&lt;div&gt;тёмно-синий — пользователи&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="legend" value="синий - системы банка (дорабатываются в MVP)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;серый - внешние системы&lt;/span&gt;&lt;div&gt;тёмно-синий - пользователи&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1160" y="700" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="qVMRrVMgod3oX7b8JM9q-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.726;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.649;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sSMS" target="sABS" edge="1">

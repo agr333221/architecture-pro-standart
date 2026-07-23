@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
-  <diagram id="credit-context" name="C4 Контекст - кредит онлайн">
+  <diagram id="credit-context" name="C4 Контекст-кредит онлайн">
     <mxGraphModel dx="1107" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="C4 - Диаграмма контекста: заявка на кредит онлайн" style="text;html=1;fontSize=18;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="10" width="920" height="30" as="geometry" />
+          <mxGeometry x="50" y="30" width="920" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pClient" value="Клиент банка&lt;br&gt;[Person]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="50" y="160" width="210" height="100" as="geometry" />
@@ -19,7 +19,7 @@
         <mxCell id="pCred" value="Менеджер кредитования&lt;br&gt;[Person]&lt;br&gt;Обрабатывает заявки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#08427B;fontColor=#ffffff;arcSize=20;" parent="1" vertex="1">
           <mxGeometry x="615" y="640" width="210" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="sIB" value="Интернет-банк&lt;br&gt;[Software System — дорабатывается]&lt;br&gt;Витрина кредитов, предодобренные предложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="sIB" value="Интернет-банк&lt;br&gt;[Software System - дорабатывается]&lt;br&gt;Витрина кредитов, предодобренные предложения" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="490" y="150" width="260" height="120" as="geometry" />
         </mxCell>
         <mxCell id="sSite" value="Сайт&lt;br&gt;[Software System ]&lt;br&gt;Витрина кредитов, заявка нового клиента с мгновенным предварительным решением" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1168BD;fontColor=#ffffff;" parent="1" vertex="1">
