@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram id="credit-context" name="C4 Контекст - кредит онлайн">
-    <mxGraphModel dx="1384" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1107" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,45 +68,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="sABS" target="sCC">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="sABS" target="sCC" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1000" y="580" as="sourcePoint" />
             <mxPoint x="997" y="432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.404;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="sCC" target="sABS">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.404;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="sCC" target="sABS" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1150" y="450" as="sourcePoint" />
             <mxPoint x="1200" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.319;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sCC" target="sKafka">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.319;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="sCC" target="sKafka" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="450" as="sourcePoint" />
             <mxPoint x="710" y="380" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="sKafka" target="sIB">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="sKafka" target="sIB" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="660" y="430" as="sourcePoint" />
             <mxPoint x="660" y="310" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="pCred">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="pCred" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="400" as="sourcePoint" />
             <mxPoint x="720" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pFront" target="sABS">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pFront" target="sABS" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="460" as="sourcePoint" />
             <mxPoint x="640" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6aTy2O47IlCNZ5-WtcC1-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="sCC" target="sBKI">
+        <mxCell id="6aTy2O47IlCNZ5-WtcC1-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="sCC" target="sBKI" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="750" y="660" as="sourcePoint" />
             <mxPoint x="800" y="610" as="targetPoint" />
