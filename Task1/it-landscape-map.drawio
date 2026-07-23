@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram id="it-landscape" name="Карта IT-ландшафта">
-    <mxGraphModel dx="1476" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1020" math="0" shadow="0">
+    <mxGraphModel dx="1107" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="1020" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="title" value="Карта текущего IT ландшафта банка Стандарт" style="text;html=1;fontSize=18;fontStyle=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="1200" height="30" as="geometry" />
+          <mxGeometry x="40" y="21" width="1200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="corner" value="Оргструктура / Бизнес-возможности&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1F6FD9;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="220" height="80" as="geometry" />

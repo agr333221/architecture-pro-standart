@@ -86,14 +86,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ec12" value="СМС клиенту" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;" parent="1" source="sSMS" target="pClient" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="990" y="910" />
-              <mxPoint x="140" y="910" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="legend" value="синий — системы банка (дорабатываются в MVP)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;серый — внешние системы&lt;/span&gt;&lt;div&gt;тёмно-синий — пользователи&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1160" y="700" width="320" height="140" as="geometry" />
         </mxCell>

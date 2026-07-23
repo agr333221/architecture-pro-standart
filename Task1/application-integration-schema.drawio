@@ -47,7 +47,7 @@
           <mxGeometry x="660" y="90" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sysTel" value="Телеком-оператор&#xa;(внешний)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="90" width="180" height="50" as="geometry" />
+          <mxGeometry x="340" y="85" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sysCC" value="Кредитный конвейер&#xa;(BPM Camunda, Oracle, обработчики на Java)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="1070" y="180" width="210" height="80" as="geometry" />
