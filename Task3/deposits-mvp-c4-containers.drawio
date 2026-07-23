@@ -23,7 +23,7 @@
           <mxGeometry x="85" y="205" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cIBDB" value="БД интернет-банка&#xa;[Container: MS SQL]" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#438DD5;fontColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="110" y="370" width="180" height="90" as="geometry" />
+          <mxGeometry x="110" y="380" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="cDep" value="Сервис депозитов [НОВЫЙ]&#xa;[Container: ASP.NET Core Web API, MS SQL]&#xa;Витрина и кэш ставок, приём заявок, статусы; масштабируется горизонтально, в 2 ЦОД" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;fontColor=#ffffff;strokeColor=#d79b00;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="370" y="200" width="240" height="120" as="geometry" />
